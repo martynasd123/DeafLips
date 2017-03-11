@@ -30,7 +30,7 @@
             android:layout_height="30dp"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
-            android:src="@drawable/trash_icon"
+            android:src="@drawable/ic_trash_light"
             android:id="@+id/beggining_trash_icon"/>
 
         <ImageView
@@ -40,7 +40,7 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:id="@+id/beggining_menu_icon"
-            android:src="@drawable/menu_icon"/>
+            android:src="@drawable/ic_menuburger_light"/>
         
         <ImageView
             android:layout_width="70dp"
