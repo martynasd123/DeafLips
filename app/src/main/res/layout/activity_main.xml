@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#333333"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lips.deafcommunication.deaflips.MainActivity">
+
+<Button
+    android:layout_width="170dp"
+    android:layout_height="170dp"
+    android:background="@drawable/starting_button"
+    android:textColor="#FFFF"
+    android:text="Start listening"
+    android:textSize="14dp"
+    android:onClick="startListening"
+    android:id="@+id/start_listening_button"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="122dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/trash_icon"
+            android:id="@+id/beggining_trash_icon"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/beggining_menu_icon"
+            android:src="@drawable/menu_icon"/>
+        
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:src="@drawable/lips_pre_icon"
+            android:layout_centerVertical="true"
+            android:id="@+id/beggining_lips_icon"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
